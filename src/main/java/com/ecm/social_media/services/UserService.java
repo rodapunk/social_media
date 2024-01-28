@@ -21,12 +21,17 @@ public class UserService {
 	}
 	
 	public User findById(String id) {
-		Optional<User> user = repository.findById(id);
-		return user.orElseThrow(() -> new ObjectNotFoundException("Object not found"));
+		Optional<User> obj = repository.findById(id);
+		return obj.orElseThrow(() -> new ObjectNotFoundException("Object not found"));
 	}
 	
 	public User insert(User obj) {
 		return repository.insert(obj);
+	}
+	
+	public void delete(String id) {
+		findById(id);
+		repository.deleteById(id);
 	}
 	
 	public User fromDTO(UserDTO objDto) {
