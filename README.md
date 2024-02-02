@@ -15,7 +15,6 @@ The application execution utilized the Apache Tomcat web container, and Maven ma
 - Apache Tomcat
 - MongoDB
 - MongoDB Compass
-- H2
 - Postman
 
 # Author
