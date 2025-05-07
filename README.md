@@ -7,7 +7,7 @@ This project aimed to develop the backend for web services using the Spring Boot
 The application execution utilized the Apache Tomcat web container, and Maven managed dependencies. Request tests were conducted through Postman, ensuring a comprehensive assessment of the system's functionality. MongoDB Compass served as a visual tool to facilitate the administration and visualization of the MongoDB database.
 
 # Domain model
-![image](https://github.com/user-attachments/assets/d975f8a5-17a0-475b-9eaa-7b7f34da9746)
+![Domain model](https://github.com/rodapunk/assets/blob/main/social_media.png)
 
 
 # Technologies Used
